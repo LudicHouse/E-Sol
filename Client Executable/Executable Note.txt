@@ -1,0 +1,1 @@
+Please note that this version of the client is configured to connect to a test server run by the development team, which may be disabled at any time. It is highly recommended you compile a new version of the app using your own server (as described in the setup document) to ensure the networking features operate as intended.

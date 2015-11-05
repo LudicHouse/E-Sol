@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: d64bf6889767bda4eb2c66ee54616b16
+timeCreated: 1439845189
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: Tail
+    21300004: Wing
+    21300006: head
+    21300008: Neck
+    21300010: WhiteStork_5
+    21300012: WhiteStork_6
+    21300014: WhiteStork_7
+    21300016: WhiteStork_8
+    21300018: Beack
+    21300020: BeackUp
+    21300022: BeackDw
+    21300024: WhiteStork_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 194
+        width: 140
+        height: 106
+      alignment: 9
+      pivot: {x: .315039873, y: .282304287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 233
+        width: 127
+        height: 69
+      alignment: 9
+      pivot: {x: .158156022, y: .681851566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wing
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 151
+        height: 118
+      alignment: 9
+      pivot: {x: .1739306, y: .789449513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: head
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 179
+        width: 50
+        height: 43
+      alignment: 9
+      pivot: {x: .774000227, y: .558139563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Neck
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 45
+        width: 72
+        height: 176
+      alignment: 9
+      pivot: {x: .555753469, y: .188358173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteStork_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 119
+        width: 5
+        height: 54
+      alignment: 9
+      pivot: {x: .5, y: .949999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteStork_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 119
+        width: 5
+        height: 54
+      alignment: 9
+      pivot: {x: .5, y: .949999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteStork_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 63
+        width: 5
+        height: 54
+      alignment: 9
+      pivot: {x: .5, y: .949999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteStork_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 63
+        width: 5
+        height: 54
+      alignment: 9
+      pivot: {x: .5, y: .949999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beack
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4
+        width: 69
+        height: 58
+      alignment: 9
+      pivot: {x: .852223933, y: .81682384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BeackUp
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 11
+        width: 62
+        height: 47
+      alignment: 9
+      pivot: {x: .868089259, y: .85313803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BeackDw
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 11
+        width: 40
+        height: 45
+      alignment: 9
+      pivot: {x: .796383679, y: .888591945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WhiteStork_12
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

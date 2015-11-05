@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 2583fb7a3207e614fa90eacd05092985
+timeCreated: 1438313986
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Neck
+    21300002: Head
+    21300004: HeadTap
+    21300006: EarR
+    21300008: EarL
+    21300010: Eye
+    21300012: EyeLTap
+    21300014: EyeRTap
+    21300016: LegBack
+    21300018: LegFront
+    21300020: Body
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Neck
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 145
+        width: 98
+        height: 120
+      alignment: 9
+      pivot: {x: .290966123, y: .0278400425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 145
+        width: 137
+        height: 151
+      alignment: 9
+      pivot: {x: .696445882, y: .0769864544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeadTap
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 145
+        width: 125
+        height: 142
+      alignment: 9
+      pivot: {x: .725278795, y: .0639650598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EarR
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 242
+        width: 35
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EarL
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 195
+        width: 35
+        height: 42
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 173
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EyeLTap
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 143
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EyeRTap
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 143
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegBack
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 120
+        height: 112
+      alignment: 9
+      pivot: {x: .85334903, y: .910137236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegFront
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4
+        width: 130
+        height: 102
+      alignment: 9
+      pivot: {x: .853348851, y: .890960395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 5
+        width: 240
+        height: 136
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

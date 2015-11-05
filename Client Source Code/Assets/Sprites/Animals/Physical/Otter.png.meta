@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: f08f5237dfe515943a1d9f6b41c48d99
+timeCreated: 1439577881
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: tail
+    21300004: ArmB
+    21300006: ArmF
+    21300008: Otter_4
+    21300010: Eye
+    21300012: Ear
+    21300014: LegF
+    21300016: LegB
+    21300018: Head
+    21300020: HeadTap
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 118
+        width: 245
+        height: 154
+      alignment: 9
+      pivot: {x: .680218756, y: .572981179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tail
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 190
+        width: 133
+        height: 82
+      alignment: 9
+      pivot: {x: .143874094, y: .338462651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmB
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 116
+        width: 35
+        height: 67
+      alignment: 9
+      pivot: {x: .591748059, y: .170495898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmF
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 117
+        width: 35
+        height: 67
+      alignment: 9
+      pivot: {x: .580278695, y: .188468814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Otter_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 170
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 145
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: .177778453, y: .833333313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 114
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegF
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 96
+        height: 101
+      alignment: 9
+      pivot: {x: .286758304, y: .76229918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegB
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 7
+        width: 96
+        height: 101
+      alignment: 9
+      pivot: {x: .454006821, y: .678839982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 13
+        width: 96
+        height: 86
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeadTap
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 9
+        width: 82
+        height: 88
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

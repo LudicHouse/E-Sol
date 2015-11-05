@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 2e19a1d4cee1c53448f24950916cc01f
+timeCreated: 1440266934
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tail
+    21300002: Neck
+    21300004: Head
+    21300006: Body
+    21300008: BigHole
+    21300010: Nose
+    21300012: Body
+    21300014: Mouth
+    21300016: EarRight
+    21300018: Eye
+    21300020: EarLeft
+    21300022: BIgHole
+    21300024: LittleHole
+    21300026: Hand
+    21300028: Wisker
+    21300030: NoseSide
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 123
+        width: 67
+        height: 115
+      alignment: 9
+      pivot: {x: 1.29892862, y: .0254698377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Neck
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 169
+        width: 87
+        height: 67
+      alignment: 9
+      pivot: {x: .213058203, y: .0964237079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 169
+        width: 83
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BIgHole
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 36
+        width: 60
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LittleHole
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 92
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Nose
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 140
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 9
+        width: 90
+        height: 108
+      alignment: 9
+      pivot: {x: 1.20000005, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 116
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EarRight
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 61
+        width: 30
+        height: 20
+      alignment: 9
+      pivot: {x: .299340814, y: .206352234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 67
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EarLeft
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 27
+        width: 16
+        height: 15
+      alignment: 9
+      pivot: {x: .690757751, y: .305370837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hand
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 3
+        width: 30
+        height: 37
+      alignment: 9
+      pivot: {x: .566957593, y: .707377076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisker
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 6
+        width: 41
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NoseSide
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 92
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

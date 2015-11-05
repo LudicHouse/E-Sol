@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: b36f9087733f88e4cb96e5df5fb53639
+timeCreated: 1440284026
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: UnaccountableRedThing
+    21300004: NOse
+    21300006: Eye
+    21300008: EyeClosed
+    21300010: Head
+    21300012: Bull_6
+    21300014: Bull_7
+    21300016: ArmLeft
+    21300018: ArmRight
+    21300020: Bull_10
+    21300022: Bull_11
+    21300024: Bull_12
+    21300026: Bull_13
+    21300028: Bull_14
+    21300030: Bull_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 544
+        width: 371
+        height: 236
+      alignment: 9
+      pivot: {x: .390140742, y: .471739441}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UnaccountableRedThing
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 499
+        width: 134
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NOse
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 493
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EyeClosed
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 503
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 201
+        width: 206
+        height: 277
+      alignment: 9
+      pivot: {x: .579999983, y: .230000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bull_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 422
+        width: 61
+        height: 57
+      alignment: 9
+      pivot: {x: 1.11702335, y: 1.35495579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bull_7
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 433
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmLeft
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 314
+        width: 102
+        height: 94
+      alignment: 9
+      pivot: {x: .280000001, y: .860000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmRight
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 210
+        width: 136
+        height: 83
+      alignment: 9
+      pivot: {x: .870000005, y: .769999981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bull_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 117
+        width: 139
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bull_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 117
+        width: 139
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bull_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 11
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bull_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 26
+        width: 86
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bull_14
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 10
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bull_15
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 15
+        width: 86
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

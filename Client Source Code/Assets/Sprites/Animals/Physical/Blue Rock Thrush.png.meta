@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: e35fe72a02fa1834199c640bbdcc0474
+timeCreated: 1440111393
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: LegB
+    21300004: Wing
+    21300006: LegF
+    21300008: Eye
+    21300010: Head
+    21300012: Beak
+    21300014: Tail
+    21300016: BeakUp
+    21300018: BeakDw
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 99
+        width: 130
+        height: 112
+      alignment: 9
+      pivot: {x: .488029599, y: .0526104644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegB
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 172
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: .896666944, y: .920000076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wing
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 109
+        width: 134
+        height: 102
+      alignment: 9
+      pivot: {x: .126062542, y: .707484961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegF
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 122
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: .893098474, y: .922095478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 94
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 86
+        height: 90
+      alignment: 9
+      pivot: {x: .746086836, y: .0193264596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beak
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 65
+        width: 56
+        height: 17
+      alignment: 9
+      pivot: {x: .705357134, y: .52352953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2
+        width: 122
+        height: 93
+      alignment: 9
+      pivot: {x: .188772604, y: .868118525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BeakUp
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 36
+        width: 54
+        height: 16
+      alignment: 9
+      pivot: {x: .622222364, y: .650000095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BeakDw
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: .599999905, y: .83571434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 772313678b4987f409b5953410000ba4
+timeCreated: 1440120024
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: Head
+    21300004: ArmB
+    21300006: Hare_3
+    21300008: ForearmB
+    21300010: ForearmF
+    21300012: Nose
+    21300014: Eye
+    21300016: ThighB
+    21300018: ThighF
+    21300020: Tail
+    21300022: EarB
+    21300024: EarF
+    21300026: FootB
+    21300028: ForearmTap
+    21300030: FootF
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 134
+        width: 116
+        height: 186
+      alignment: 9
+      pivot: {x: .383289754, y: .241480425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 222
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: .697506249, y: .215725869}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmB
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 272
+        width: 91
+        height: 46
+      alignment: 9
+      pivot: {x: .899999976, y: .779999971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hare_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 272
+        width: 91
+        height: 46
+      alignment: 9
+      pivot: {x: .100000001, y: .779999971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ForearmB
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 217
+        width: 79
+        height: 50
+      alignment: 9
+      pivot: {x: .119999997, y: .860000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ForearmF
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 217
+        width: 79
+        height: 50
+      alignment: 9
+      pivot: {x: .879999995, y: .860000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Nose
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 193
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 193
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ThighB
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 82
+        width: 87
+        height: 127
+      alignment: 9
+      pivot: {x: .649999976, y: .699999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ThighF
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 82
+        width: 87
+        height: 127
+      alignment: 9
+      pivot: {x: .540000021, y: .75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 133
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: .200122073, y: .670385122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EarB
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 13
+        width: 106
+        height: 108
+      alignment: 9
+      pivot: {x: .0599999987, y: .0599999987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EarF
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 12
+        width: 106
+        height: 108
+      alignment: 9
+      pivot: {x: .0599999987, y: .0599999987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FootB
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 47
+        width: 111
+        height: 28
+      alignment: 9
+      pivot: {x: .736389995, y: .865111232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ForearmTap
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 10
+        width: 98
+        height: 59
+      alignment: 9
+      pivot: {x: .0799806565, y: .122101836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FootF
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 4
+        width: 87
+        height: 30
+      alignment: 9
+      pivot: {x: .818453014, y: .910450757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

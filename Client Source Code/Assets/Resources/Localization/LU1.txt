@@ -1,0 +1,3 @@
+hello:Hallo!
+thankyou:Danke!
+languagename:Deutsch

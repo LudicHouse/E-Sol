@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: ac24614d3ee6a8f43b12048b7e2315ff
+timeCreated: 1439568883
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: HeadTap
+    21300004: ArmR
+    21300006: ArmL
+    21300008: Bubble
+    21300010: Ear
+    21300012: Eye
+    21300014: EyeTap
+    21300016: LegRB
+    21300018: Neck
+    21300020: Head
+    21300022: LegL
+    21300024: LegR
+    21300026: NeckTap
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 250
+        width: 267
+        height: 184
+      alignment: 9
+      pivot: {x: .350179642, y: .357261002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeadTap
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 268
+        width: 119
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmR
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 326
+        width: 117
+        height: 98
+      alignment: 9
+      pivot: {x: .87939769, y: .8796826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmL
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 274
+        width: 189
+        height: 155
+      alignment: 9
+      pivot: {x: .382567078, y: .731634319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bubble
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 386
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: .834183335, y: .838258684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 263
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: .731441319, y: .0983449742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 265
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EyeTap
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 280
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegRB
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 281
+        width: 59
+        height: 79
+      alignment: 9
+      pivot: {x: .278715491, y: .367789745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Neck
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 70
+        width: 209
+        height: 169
+      alignment: 9
+      pivot: {x: .676590979, y: .281612456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 49
+        width: 115
+        height: 191
+      alignment: 9
+      pivot: {x: .672488809, y: .893987119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegL
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 42
+        width: 154
+        height: 199
+      alignment: 9
+      pivot: {x: .21829541, y: .529284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegR
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 11
+        width: 79
+        height: 250
+      alignment: 9
+      pivot: {x: .615683258, y: .894283652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NeckTap
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 35
+        width: 185
+        height: 230
+      alignment: 9
+      pivot: {x: .67995739, y: .193473652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: fa668a2110daf234a85a20ca9ae1d3c0
+timeCreated: 1440292772
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: Tail
+    21300004: ArmHangin
+    21300006: ArmOther
+    21300008: Head
+    21300010: RedSquirrel_6
+    21300012: Ear
+    21300014: Mouth
+    21300016: Wisker
+    21300018: Eye
+    21300020: HandHanging
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 57
+        width: 105
+        height: 126
+      alignment: 9
+      pivot: {x: .200881884, y: .83473146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 48
+        width: 88
+        height: 136
+      alignment: 9
+      pivot: {x: .785740256, y: .0898148865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmHangin
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 75
+        width: 44
+        height: 86
+      alignment: 9
+      pivot: {x: .170000002, y: .930000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmOther
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6
+        width: 94
+        height: 44
+      alignment: 9
+      pivot: {x: .0799999982, y: .319999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 3
+        width: 62
+        height: 65
+      alignment: 9
+      pivot: {x: .443281114, y: .0959590599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 16
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 23
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisker
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2
+        width: 25
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 4
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HandHanging
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 155
+        width: 22
+        height: 29
+      alignment: 9
+      pivot: {x: .600000024, y: .200000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

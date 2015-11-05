@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 5d5b4d73ebc64354d826d4e6e38edbb2
+timeCreated: 1439810068
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: Horn
+    21300004: LegB
+    21300006: Neck
+    21300008: Head
+    21300010: HeadTap
+    21300012: LegF
+    21300014: Ear
+    21300016: NOse
+    21300018: Eye
+    21300020: EyeTap
+    21300022: SmileTap
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 194
+        width: 267
+        height: 208
+      alignment: 9
+      pivot: {x: .319989413, y: .391596287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Horn
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 215
+        width: 162
+        height: 167
+      alignment: 9
+      pivot: {x: .940522194, y: .0577019788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegB
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 197
+        width: 79
+        height: 175
+      alignment: 9
+      pivot: {x: .560000002, y: .839999974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Neck
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 119
+        height: 173
+      alignment: 9
+      pivot: {x: .439999998, y: .209999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 53
+        width: 105
+        height: 121
+      alignment: 9
+      pivot: {x: .449999988, y: .25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeadTap
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 53
+        width: 105
+        height: 121
+      alignment: 9
+      pivot: {x: .449999988, y: .25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegF
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 5
+        width: 79
+        height: 175
+      alignment: 9
+      pivot: {x: .560000002, y: .839999974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 83
+        width: 66
+        height: 38
+      alignment: 9
+      pivot: {x: .840792596, y: .229624301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NOse
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 11
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EyeTap
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 18
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmileTap
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 13
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

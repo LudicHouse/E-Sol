@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 5b6a8c612aaee7f43a7e190ff9a75cd2
+timeCreated: 1439825855
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: Ear
+    21300004: LegB
+    21300006: Snot
+    21300008: LegF
+    21300010: Head
+    21300012: MOuth
+    21300014: Eye
+    21300016: ArmB
+    21300018: ArmF
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 171
+        width: 137
+        height: 118
+      alignment: 9
+      pivot: {x: .33458811, y: .326071411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 230
+        width: 63
+        height: 59
+      alignment: 9
+      pivot: {x: .846131563, y: .463764787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegB
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 234
+        width: 61
+        height: 56
+      alignment: 9
+      pivot: {x: .839999974, y: .720000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Snot
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 176
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegF
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 168
+        width: 61
+        height: 56
+      alignment: 9
+      pivot: {x: .839999974, y: .720000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 125
+        height: 152
+      alignment: 9
+      pivot: {x: .430000007, y: .25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MOuth
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 131
+        width: 75
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 145
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmB
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 24
+        width: 51
+        height: 84
+      alignment: 9
+      pivot: {x: .850000024, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmF
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 21
+        width: 51
+        height: 84
+      alignment: 9
+      pivot: {x: .150000006, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

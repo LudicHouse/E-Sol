@@ -1,0 +1,2 @@
+hello:Zdravo!
+thankyou:Hvala!

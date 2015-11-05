@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 21ea2179ac512d14c816c70de39b91cf
+timeCreated: 1438308530
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Horn_Left
+    21300002: Muflon_1
+    21300004: Head
+    21300006: Horn_Right
+    21300008: Body
+    21300010: Leg_Up_Left
+    21300012: Eye_Left
+    21300014: Eye_Right
+    21300016: Tail
+    21300018: Leg_Up_Right
+    21300020: Leg_Dw_Left
+    21300022: Leg_Dw_Right
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Horn_Left
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 186
+        width: 96
+        height: 115
+      alignment: 9
+      pivot: {x: .853751719, y: .772934377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 183
+        width: 98
+        height: 118
+      alignment: 9
+      pivot: {x: .494749576, y: .792159021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Horn_Right
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 186
+        width: 97
+        height: 115
+      alignment: 9
+      pivot: {x: .112762921, y: .772934377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 4
+        width: 187
+        height: 301
+      alignment: 9
+      pivot: {x: .706369519, y: .987196684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Up_Left
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 7
+        width: 84
+        height: 171
+      alignment: 9
+      pivot: {x: .616385937, y: .837014019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye_Left
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 156
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye_Right
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 156
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 153
+        width: 49
+        height: 25
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Up_Right
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 6
+        width: 84
+        height: 171
+      alignment: 9
+      pivot: {x: .616385698, y: .837014019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Dw_Left
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 23
+        width: 69
+        height: 124
+      alignment: 9
+      pivot: {x: .559657693, y: .280072331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Dw_Right
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 23
+        width: 69
+        height: 124
+      alignment: 9
+      pivot: {x: .559657872, y: .263474047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

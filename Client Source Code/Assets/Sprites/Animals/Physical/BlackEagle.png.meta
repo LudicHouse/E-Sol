@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: dcff777be2c46b444b2f3240c24f907f
+timeCreated: 1439436362
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WingRight
+    21300002: Head
+    21300004: Beack
+    21300006: Eye
+    21300008: BeackTapUp
+    21300010: Leg
+    21300012: BeackTapDown
+    21300014: WingLeft
+    21300016: Body
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WingRight
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 171
+        width: 112
+        height: 152
+      alignment: 9
+      pivot: {x: .202737883, y: .947653115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 235
+        width: 78
+        height: 88
+      alignment: 9
+      pivot: {x: .596038401, y: .202062264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beack
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 300
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: .646429002, y: .64475286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 307
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BeackTapUp
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 266
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: .654135823, y: .635706365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 239
+        width: 22
+        height: 50
+      alignment: 9
+      pivot: {x: .651332498, y: .949459851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BeackTapDown
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 242
+        width: 17
+        height: 13
+      alignment: 9
+      pivot: {x: .781524658, y: .932172358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WingLeft
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 112
+        height: 152
+      alignment: 9
+      pivot: {x: .197003394, y: .946521342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4
+        width: 124
+        height: 226
+      alignment: 9
+      pivot: {x: .55015564, y: .525684297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 6944612e32fc14d4ebed5b7442c059cd
+timeCreated: 1439348225
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HeadTap
+    21300002: Head
+    21300004: EyeTap
+    21300006: Ear
+    21300008: Body
+    21300010: Jaw
+    21300012: Eye
+    21300014: BellStrap
+    21300016: Bell
+    21300018: Belt
+    21300020: ArmLeft
+    21300022: ArmRight
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HeadTap
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 259
+        width: 240
+        height: 331
+      alignment: 9
+      pivot: {x: .870000005, y: .0700000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 259
+        width: 241
+        height: 331
+      alignment: 9
+      pivot: {x: .870000005, y: .0700000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EyeTap
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 357
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 280
+        width: 52
+        height: 50
+      alignment: 9
+      pivot: {x: .114750788, y: .321929336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 20
+        width: 292
+        height: 209
+      alignment: 9
+      pivot: {x: .874020696, y: .232451692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jaw
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 140
+        width: 118
+        height: 113
+      alignment: 9
+      pivot: {x: .670000017, y: .860000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 166
+        width: 73
+        height: 85
+      alignment: 9
+      pivot: {x: .472602725, y: .436470658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BellStrap
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 225
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: .916694641, y: .892183006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bell
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 145
+        width: 72
+        height: 62
+      alignment: 9
+      pivot: {x: .473331034, y: .892291188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Belt
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 20
+        width: 191
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmLeft
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 80
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: .891542554, y: .799949348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmRight
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 20
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: .882541358, y: .789781451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

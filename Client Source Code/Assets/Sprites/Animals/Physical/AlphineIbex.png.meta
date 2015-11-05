@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 18052a25342705347891028500c42bf7
+timeCreated: 1440280354
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Body
+    21300002: HornF
+    21300004: Head
+    21300006: EyeClosed
+    21300008: Eye
+    21300010: AlphineIbex_5
+    21300012: HornB
+    21300014: HeadTap
+    21300016: FurThing
+    21300018: Ear
+    21300020: Pupil
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 374
+        width: 308
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HornF
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 287
+        width: 391
+        height: 253
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 191
+        width: 244
+        height: 172
+      alignment: 9
+      pivot: {x: .75, y: .119999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EyeClosed
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 337
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 337
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AlphineIbex_5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 258
+        width: 49
+        height: 60
+      alignment: 9
+      pivot: {x: .5, y: .930000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HornB
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 24
+        width: 391
+        height: 253
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeadTap
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 7
+        width: 245
+        height: 172
+      alignment: 9
+      pivot: {x: .75, y: .119999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FurThing
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 92
+        height: 87
+      alignment: 9
+      pivot: {x: .317150623, y: .608469307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 76
+        width: 36
+        height: 74
+      alignment: 9
+      pivot: {x: .430000007, y: .0500000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pupil
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 343
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
