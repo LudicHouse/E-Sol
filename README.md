@@ -12,3 +12,6 @@ This application has been developed within the MyGEOSS project, which has receiv
 
 # Disclaimer
 The JRC, or as the case may be the European Commission, shall not be held liable for any direct or indirect, incidental, consequential or other damages, including but not limited to the loss of data, loss of profits, or any other financial loss arising from the use of this application, or inability to use it, even if the JRC is notified of the possibility of such damages.
+
+# License
+Copyright 2016 EUROPEAN UNION Licensed under the EUPL, Version 1.1 or - as soon they will be approved by the European Commission - subsequent versions of the EUPL (the "Licence"); You may not use this work except in compliance with the Licence. A copy of the License is included in this repository (see LICENSE file), you may obtain a copy of the Licence at: http://ec.europa.eu/idabc/eupl Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Licence for the specific language governing permissions and limitations under the Licence.
