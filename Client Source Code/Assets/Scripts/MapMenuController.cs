@@ -31,12 +31,16 @@ public class MapMenuController : MonoBehaviour {
     private string remoteSavePath;
     private string remoteDataPath;
 
+    private OptionsController optionsController;
+
 	// Use this for initialization
 	void Start () {
         localSavePath = Application.persistentDataPath + "/localPlant.save";
         localRegionPath = Application.persistentDataPath + "/localregion";
         remoteSavePath = Application.persistentDataPath + "/remotePlant.save";
         remoteDataPath = Application.persistentDataPath + "/remotedata";
+
+        optionsController = FindObjectOfType<OptionsController>();
 	}
 	
 	// Update is called once per frame
@@ -52,8 +56,11 @@ public class MapMenuController : MonoBehaviour {
     /// </summary>
     public void back()
     {
-        //Application.LoadLevel("Main");
-        UnityEngine.Object.FindObjectOfType<SceneManager>().loadMain();
+        if (optionsController.isOptionsPanelOpen() == false)
+        {
+            //Application.LoadLevel("Main");
+            UnityEngine.Object.FindObjectOfType<SceneManager>().loadMain();
+        }
     }
 
     /// <summary>
