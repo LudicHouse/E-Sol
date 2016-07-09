@@ -4,9 +4,11 @@ using System.Collections;
 public class MenuController : MonoBehaviour {
     public string targetAccessory;
 
+    private GameController gameController;
+
 	// Use this for initialization
 	void Start () {
-	
+        gameController = Object.FindObjectOfType<GameController>();
 	}
 	
 	// Update is called once per frame
@@ -91,10 +93,13 @@ public class MenuController : MonoBehaviour {
     /// </summary>
     public void openMap()
     {
-        save();
-        Object.Destroy(Object.FindObjectOfType<GameController>().gameObject);
-        //Application.LoadLevel("Map");
-        Object.FindObjectOfType<SceneManager>().loadLevel("Map");
+        if (gameController.isOptionsPanelOpen() == false)
+        {
+            save();
+            Object.Destroy(Object.FindObjectOfType<GameController>().gameObject);
+            //Application.LoadLevel("Map");
+            Object.FindObjectOfType<SceneManager>().loadLevel("Map");
+        }
     }
 
     /// <summary>
