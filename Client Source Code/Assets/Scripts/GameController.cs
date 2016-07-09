@@ -606,16 +606,25 @@ public class GameController : MonoBehaviour {
         }
         else
         {
-            foreach (Transform child in optionsGroup.transform)
-            {
-                if (child.gameObject.activeSelf == true)
-                {
-                    return true;
-                }
-            }
-
-            return false;
+            return isOptionsPanelOpen();
         }
+    }
+
+    /// <summary>
+    /// Checks whether the options menu is open.
+    /// </summary>
+    /// <returns>True if any panel of the options menu is open, false otherwise.</returns>
+    public bool isOptionsPanelOpen()
+    {
+        foreach (Transform child in optionsGroup.transform)
+        {
+            if (child.gameObject.activeSelf == true)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /// <summary>
