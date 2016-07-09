@@ -42,6 +42,8 @@ public class GameController : MonoBehaviour {
 
     private float autoSaveTimer;
 
+    private OptionsController optionsController;
+
     // Use this for initialization
 	void Awake () {
         Debug.Log("Game controller is awake");
@@ -143,6 +145,8 @@ public class GameController : MonoBehaviour {
             Debug.Log("Started new game with seed " + startSeed);
             UnityEngine.Object.FindObjectOfType<FinishLoading>().ready();
         }
+
+        optionsController = optionsGroup.GetComponent<OptionsController>();
 	}
 	
 	// Update is called once per frame
@@ -606,25 +610,8 @@ public class GameController : MonoBehaviour {
         }
         else
         {
-            return isOptionsPanelOpen();
+            return optionsController.isOptionsPanelOpen();
         }
-    }
-
-    /// <summary>
-    /// Checks whether the options menu is open.
-    /// </summary>
-    /// <returns>True if any panel of the options menu is open, false otherwise.</returns>
-    public bool isOptionsPanelOpen()
-    {
-        foreach (Transform child in optionsGroup.transform)
-        {
-            if (child.gameObject.activeSelf == true)
-            {
-                return true;
-            }
-        }
-
-        return false;
     }
 
     /// <summary>

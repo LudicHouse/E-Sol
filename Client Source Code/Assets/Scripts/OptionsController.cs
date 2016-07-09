@@ -61,4 +61,17 @@ public class OptionsController : MonoBehaviour {
     {
         Object.FindObjectOfType<MusicController>().playSoundEffect(clip);
     }
+
+    public bool isOptionsPanelOpen()
+    {
+        foreach (Transform child in transform)
+        {
+            if (child.gameObject.activeSelf == true)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
