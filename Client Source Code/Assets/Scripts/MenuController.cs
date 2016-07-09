@@ -5,10 +5,12 @@ public class MenuController : MonoBehaviour {
     public string targetAccessory;
 
     private GameController gameController;
+    private OptionsController optionsController;
 
 	// Use this for initialization
 	void Start () {
         gameController = Object.FindObjectOfType<GameController>();
+        optionsController = Object.FindObjectOfType<OptionsController>();
 	}
 	
 	// Update is called once per frame
@@ -93,7 +95,7 @@ public class MenuController : MonoBehaviour {
     /// </summary>
     public void openMap()
     {
-        if (gameController.isOptionsPanelOpen() == false)
+        if (optionsController.isOptionsPanelOpen() == false)
         {
             save();
             Object.Destroy(Object.FindObjectOfType<GameController>().gameObject);
