@@ -96,7 +96,7 @@ public class MenuController : MonoBehaviour {
             save();
             Object.Destroy(Object.FindObjectOfType<GameController>().gameObject);
             //Application.LoadLevel("Map");
-            Object.FindObjectOfType<SceneManager>().loadLevel("Map");
+            Object.FindObjectOfType<SceneController>().loadLevel("Map");
         }
     }
 

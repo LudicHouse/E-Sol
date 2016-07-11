@@ -3,7 +3,7 @@ using System.Collections;
 using System.IO;
 using System;
 
-public class SceneManager : MonoBehaviour {
+public class SceneController : MonoBehaviour {
     public float swapSaveDuration;
 
     public bool loadPlant = false;
@@ -29,7 +29,7 @@ public class SceneManager : MonoBehaviour {
         remoteDataPath = Application.persistentDataPath + "/remotedata";
 
         UnityEngine.Object.DontDestroyOnLoad(this.gameObject);
-        if (FindObjectsOfType<SceneManager>().Length > 1)
+        if (FindObjectsOfType<SceneController>().Length > 1)
         {
             UnityEngine.Object.Destroy(this.gameObject);
             Debug.Log("Additional Scene Manager found, using that instead.");
