@@ -167,7 +167,7 @@ public class GameControllerBackup : MonoBehaviour {
 
     void OnLevelWasLoaded(int level)
     {
-        if (Application.loadedLevelName == "Main")
+        if (SceneManager.GetActiveScene().name == "Main")
         {
             Debug.Log("About to start late load");
             loaded = true;
