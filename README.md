@@ -3,9 +3,15 @@ The E-Sol App is part of the MyGEOSS project on innovative apps in environmental
 
 The app is published under the European Union Public License (EUPL) Version 1.1. See LICENSE file.
 
-# App Stores
+## App Stores
 The app is currently not published in the Apple App Store nor in the Google Play Store. 
 The APK package for Google Android is available in this repository within the "Client Executable" folder.
+
+# Project Workflow
+This project currently uses the [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) system of branch management. If you're unfamiliar system, the only bits that regular developers/contributors need to know is that the 'master' branch represents the live, released version of the game, while 'develop' is the in-progress branch containing all completed features/changes. If anyone wants to add a feature or make a change, just create a new branch off develop and work on it there, then once finished use GitHub's Pull Request feature to mark it as ready to merge back into develop (the site may try and request a merge into master by default, you may need to change that manually when creating the pull request).
+
+## Merge Conflicts
+The Unity project has been set up to simplify merging branches as much as possible (the Visible Assets mode is enabled to manage asset tracking, and all Unity-generated binary files have been converted to a plaintext YAML format), though if problematic merge conflics occur that cannot be resolved using simple text editing Unity provides a [merge tool](https://docs.unity3d.com/Manual/SmartMerge.html) to simplify the process. 
 
 # Funding
 This application has been developed within the MyGEOSS project, which has received funding from the European Union’s Horizon 2020 research and innovation programme.
