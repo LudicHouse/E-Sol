@@ -6,7 +6,7 @@ public class MenuController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+        
 	}
 	
 	// Update is called once per frame
@@ -91,10 +91,13 @@ public class MenuController : MonoBehaviour {
     /// </summary>
     public void openMap()
     {
-        save();
-        Object.Destroy(Object.FindObjectOfType<GameController>().gameObject);
-        //Application.LoadLevel("Map");
-        Object.FindObjectOfType<SceneManager>().loadLevel("Map");
+        if (Object.FindObjectOfType<OptionsController>().isOptionsPanelOpen() == false)
+        {
+            save();
+            Object.Destroy(Object.FindObjectOfType<GameController>().gameObject);
+            //Application.LoadLevel("Map");
+            Object.FindObjectOfType<SceneManager>().loadLevel("Map");
+        }
     }
 
     /// <summary>
