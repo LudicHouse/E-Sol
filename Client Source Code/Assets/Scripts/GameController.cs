@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 using UnityEngine.UI;
 using System.Net;
 using System;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
     public System.Random rand;
@@ -583,7 +584,7 @@ public class GameController : MonoBehaviour {
         File.Delete(remoteDataPath);
         File.Delete(Application.persistentDataPath + "/token");
         UnityEngine.Object.Destroy(this.gameObject);
-        Application.LoadLevel("Startup");
+        SceneManager.LoadScene("Startup");
     }
 
     /// <summary>
@@ -595,7 +596,7 @@ public class GameController : MonoBehaviour {
         File.Delete(regionPath);
         File.Delete(Application.persistentDataPath + "/token");
         UnityEngine.Object.Destroy(this.gameObject);
-        Application.LoadLevel("Startup");
+        SceneManager.LoadScene("Startup");
     }
 
     /// <summary>

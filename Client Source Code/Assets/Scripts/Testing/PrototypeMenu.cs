@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PrototypeMenu : MonoBehaviour {
 
@@ -15,6 +16,6 @@ public class PrototypeMenu : MonoBehaviour {
 
 	public void loadPlantPhys()
 	{
-		Application.LoadLevel ("Plant Physics Test");
+		SceneManager.LoadScene("Plant Physics Test");
 	}
 }

@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 using UnityEngine.UI;
 using System.Net;
 using System;
+using UnityEngine.SceneManagement;
 
 public class GameControllerBackup : MonoBehaviour {
     public System.Random rand;
@@ -159,7 +160,7 @@ public class GameControllerBackup : MonoBehaviour {
                 File.Delete(remoteSavePath);
                 File.Delete(remoteDataPath);
                 UnityEngine.Object.Destroy(this.gameObject);
-                Application.LoadLevel("Main");
+                SceneManager.LoadScene("Main");
             }
         }
 	}
@@ -407,7 +408,7 @@ public class GameControllerBackup : MonoBehaviour {
             startSeed = loadedSave.randomSeed;
             rand = new System.Random(loadedSave.randomSeed);
             Debug.Log("Loading scene.");
-            Application.LoadLevel("Main");
+            SceneManager.LoadScene("Main");
             //UnityEngine.Object.FindObjectOfType<SceneManager>().loadLevel("Main");
             Debug.Log("Scene loaded.");
             toLoad = loadedSave;
@@ -429,7 +430,7 @@ public class GameControllerBackup : MonoBehaviour {
         File.Delete(regionPath);
         File.Delete(Application.persistentDataPath + "/token");
         UnityEngine.Object.Destroy(this.gameObject);
-        Application.LoadLevel("Startup");
+        SceneManager.LoadScene("Startup");
     }
 
     /// <summary>
@@ -441,7 +442,7 @@ public class GameControllerBackup : MonoBehaviour {
         File.Delete(regionPath);
         File.Delete(Application.persistentDataPath + "/token");
         UnityEngine.Object.Destroy(this.gameObject);
-        Application.LoadLevel("Startup");
+        SceneManager.LoadScene("Startup");
     }
 
     /// <summary>

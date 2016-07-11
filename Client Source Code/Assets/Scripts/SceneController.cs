@@ -2,6 +2,7 @@
 using System.Collections;
 using System.IO;
 using System;
+using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour {
     public float swapSaveDuration;
@@ -87,7 +88,7 @@ public class SceneController : MonoBehaviour {
         Debug.Log("Attempting to load " + levelName);
         toLoad = levelName;
         Debug.Log("Going to loading scene first.");
-        Application.LoadLevel("Loading");
+        SceneManager.LoadScene("Loading");
     }
 
     /// <summary>
@@ -159,7 +160,7 @@ public class SceneController : MonoBehaviour {
     private IEnumerator loadLevelAsync()
     {
         Debug.Log("Starting async level load.");
-        loader = Application.LoadLevelAsync(toLoad);
+        loader = SceneManager.LoadSceneAsync(toLoad);
         Debug.Log("Load begun.");
         yield return loader;
         Debug.Log("Level load complete.");
