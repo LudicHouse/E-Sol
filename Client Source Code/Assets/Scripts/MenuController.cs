@@ -4,11 +4,9 @@ using System.Collections;
 public class MenuController : MonoBehaviour {
     public string targetAccessory;
 
-    private GameController gameController;
-
 	// Use this for initialization
 	void Start () {
-        gameController = Object.FindObjectOfType<GameController>();
+        
 	}
 	
 	// Update is called once per frame
