@@ -62,7 +62,7 @@ public class StartupController : MonoBehaviour {
                     if (File.Exists(regionPath) == true & File.Exists(localPlantPath) == true)
                     {
                         //Application.loadLevel("Main");
-                        Object.FindObjectOfType<SceneManager>().loadMain();
+                        Object.FindObjectOfType<SceneController>().loadMain();
                     }
                     else
                     {
@@ -164,6 +164,6 @@ public class StartupController : MonoBehaviour {
         writer.Close();
 
         //Application.LoadLevel("Main");
-        Object.FindObjectOfType<SceneManager>().loadMain();
+        Object.FindObjectOfType<SceneController>().loadMain();
     }
 }

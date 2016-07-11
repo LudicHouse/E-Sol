@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class OptionsController : MonoBehaviour {
 
@@ -26,7 +27,7 @@ public class OptionsController : MonoBehaviour {
         {
             Object.FindObjectOfType<GameController>().save();
         }
-        Application.LoadLevel("Startup");
+        SceneManager.LoadScene("Startup");
     }
 
     /// <summary>
@@ -42,7 +43,7 @@ public class OptionsController : MonoBehaviour {
         File.Delete(Application.persistentDataPath + "/token");
         File.Delete(Application.persistentDataPath + "/explored");
         File.Delete(Application.persistentDataPath + "/tutorial");
-        Application.LoadLevel("Startup");
+        SceneManager.LoadScene("Startup");
     }
     
     /// <summary>

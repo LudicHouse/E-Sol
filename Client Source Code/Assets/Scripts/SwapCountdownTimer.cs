@@ -21,7 +21,7 @@ public class SwapCountdownTimer : MonoBehaviour {
             DateTime start = new DateTime(long.Parse(reader.ReadLine()));
             reader.Close();
 
-            end = start.AddSeconds(UnityEngine.Object.FindObjectOfType<SceneManager>().swapSaveDuration);
+            end = start.AddSeconds(UnityEngine.Object.FindObjectOfType<SceneController>().swapSaveDuration);
             showCountdown = true;
         }
         else

@@ -2,8 +2,9 @@
 using System.Collections;
 using System.IO;
 using System;
+using UnityEngine.SceneManagement;
 
-public class SceneManager : MonoBehaviour {
+public class SceneController : MonoBehaviour {
     public float swapSaveDuration;
 
     public bool loadPlant = false;
@@ -29,7 +30,7 @@ public class SceneManager : MonoBehaviour {
         remoteDataPath = Application.persistentDataPath + "/remotedata";
 
         UnityEngine.Object.DontDestroyOnLoad(this.gameObject);
-        if (FindObjectsOfType<SceneManager>().Length > 1)
+        if (FindObjectsOfType<SceneController>().Length > 1)
         {
             UnityEngine.Object.Destroy(this.gameObject);
             Debug.Log("Additional Scene Manager found, using that instead.");
@@ -38,7 +39,7 @@ public class SceneManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Application.loadedLevelName == "Loading")
+        if (SceneManager.GetActiveScene().name == "Loading")
         {
             if (loader != null)
             {
@@ -87,7 +88,7 @@ public class SceneManager : MonoBehaviour {
         Debug.Log("Attempting to load " + levelName);
         toLoad = levelName;
         Debug.Log("Going to loading scene first.");
-        Application.LoadLevel("Loading");
+        SceneManager.LoadScene("Loading");
     }
 
     /// <summary>
@@ -159,7 +160,7 @@ public class SceneManager : MonoBehaviour {
     private IEnumerator loadLevelAsync()
     {
         Debug.Log("Starting async level load.");
-        loader = Application.LoadLevelAsync(toLoad);
+        loader = SceneManager.LoadSceneAsync(toLoad);
         Debug.Log("Load begun.");
         yield return loader;
         Debug.Log("Level load complete.");

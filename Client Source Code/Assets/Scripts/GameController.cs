@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 using UnityEngine.UI;
 using System.Net;
 using System;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
     public System.Random rand;
@@ -124,17 +125,17 @@ public class GameController : MonoBehaviour {
             plantRegion = lRegion;
         }
 
-        plantRegion = UnityEngine.Object.FindObjectOfType<SceneManager>().plantRegion;
-        plantLanguage = UnityEngine.Object.FindObjectOfType<SceneManager>().plantLanguage;
+        plantRegion = UnityEngine.Object.FindObjectOfType<SceneController>().plantRegion;
+        plantLanguage = UnityEngine.Object.FindObjectOfType<SceneController>().plantLanguage;
 
         UnityEngine.Object.FindObjectOfType<SetFlag>().set(plantRegion);
 
-        if (UnityEngine.Object.FindObjectOfType<SceneManager>().loadPlant == true)
+        if (UnityEngine.Object.FindObjectOfType<SceneController>().loadPlant == true)
         {
             Debug.Log("Attempting to load save data...");
             //plantRegion = UnityEngine.Object.FindObjectOfType<SceneManager>().plantRegion;
-            swapStartTicks = UnityEngine.Object.FindObjectOfType<SceneManager>().swapStartTicks;
-            savePath = UnityEngine.Object.FindObjectOfType<SceneManager>().savePath;
+            swapStartTicks = UnityEngine.Object.FindObjectOfType<SceneController>().swapStartTicks;
+            savePath = UnityEngine.Object.FindObjectOfType<SceneController>().savePath;
             StartCoroutine("load");
         }
         else
@@ -175,13 +176,13 @@ public class GameController : MonoBehaviour {
 
         if (swapStartTicks != -1)
         {
-            if (UnityEngine.Object.FindObjectOfType<SceneManager>().isSwapTimeUp(swapStartTicks) == true)
+            if (UnityEngine.Object.FindObjectOfType<SceneController>().isSwapTimeUp(swapStartTicks) == true)
             {
                 Debug.Log("Swap time up!");
                 UnityEngine.Object.FindObjectOfType<MusicController>().playSoundEffect(returnSound);
                 File.Delete(remoteSavePath);
                 File.Delete(remoteDataPath);
-                UnityEngine.Object.FindObjectOfType<SceneManager>().loadMain();
+                UnityEngine.Object.FindObjectOfType<SceneController>().loadMain();
             }
         }
 	}
@@ -397,7 +398,7 @@ public class GameController : MonoBehaviour {
     public IEnumerator load()
     {
         Debug.Log("Beginning load");
-        Save toLoad = UnityEngine.Object.FindObjectOfType<SceneManager>().plantSave;
+        Save toLoad = UnityEngine.Object.FindObjectOfType<SceneController>().plantSave;
 
         System.TimeSpan timeDiff = System.DateTime.Now - toLoad.saveDate;
         //Debug.Log("It has been " + timeDiff.TotalSeconds + " seconds since the last save.");
@@ -507,8 +508,8 @@ public class GameController : MonoBehaviour {
             }
         }
 
-        UnityEngine.Object.FindObjectOfType<SceneManager>().loadPlant = false;
-        UnityEngine.Object.FindObjectOfType<SceneManager>().swapStartTicks = -1;
+        UnityEngine.Object.FindObjectOfType<SceneController>().loadPlant = false;
+        UnityEngine.Object.FindObjectOfType<SceneController>().swapStartTicks = -1;
         Debug.Log("Load complete.");
         UnityEngine.Object.FindObjectOfType<FinishLoading>().ready();
     }
@@ -583,7 +584,7 @@ public class GameController : MonoBehaviour {
         File.Delete(remoteDataPath);
         File.Delete(Application.persistentDataPath + "/token");
         UnityEngine.Object.Destroy(this.gameObject);
-        Application.LoadLevel("Startup");
+        SceneManager.LoadScene("Startup");
     }
 
     /// <summary>
@@ -595,7 +596,7 @@ public class GameController : MonoBehaviour {
         File.Delete(regionPath);
         File.Delete(Application.persistentDataPath + "/token");
         UnityEngine.Object.Destroy(this.gameObject);
-        Application.LoadLevel("Startup");
+        SceneManager.LoadScene("Startup");
     }
 
     /// <summary>

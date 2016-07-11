@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MusicController : MonoBehaviour {
     public float happyThreshold;
@@ -27,7 +28,7 @@ public class MusicController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Application.loadedLevelName == "Main" && gc.isCreditsPanelOpen() == false)
+        if (SceneManager.GetActiveScene().name == "Main" && gc.isCreditsPanelOpen() == false)
         {
             anim.SetBool("usemood", true);
 
@@ -54,7 +55,7 @@ public class MusicController : MonoBehaviour {
 
     void OnLevelWasLoaded(int level)
     {
-        if (Application.loadedLevelName == "Main")
+        if (SceneManager.GetActiveScene().name == "Main")
         {
             gc = Object.FindObjectOfType<GameController>();
             p = Object.FindObjectOfType<Plant>();

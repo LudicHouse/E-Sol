@@ -59,7 +59,7 @@ public class MapMenuController : MonoBehaviour {
         if (optionsController.isOptionsPanelOpen() == false)
         {
             //Application.LoadLevel("Main");
-            UnityEngine.Object.FindObjectOfType<SceneManager>().loadMain();
+            UnityEngine.Object.FindObjectOfType<SceneController>().loadMain();
         }
     }
 
@@ -198,7 +198,7 @@ public class MapMenuController : MonoBehaviour {
             yield return new WaitForSeconds(2);
 
             //Application.LoadLevel("Main");
-            UnityEngine.Object.FindObjectOfType<SceneManager>().loadMain();
+            UnityEngine.Object.FindObjectOfType<SceneController>().loadMain();
         }
         else
         {
