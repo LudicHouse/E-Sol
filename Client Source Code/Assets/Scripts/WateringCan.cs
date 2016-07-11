@@ -287,28 +287,30 @@ public class WateringCan : MonoBehaviour {
         foreach (ParticleSystem p in waterFlowLeft.GetComponentsInChildren<ParticleSystem>())
         {
             //Debug.Log("Psystem found");
-            if (val == true & p.enableEmission == false)
+            ParticleSystem.EmissionModule emission = p.emission;
+            if (val == true & emission.enabled == false)
             {
-                p.enableEmission = true;
+                emission.enabled = true;
                 p.Play();
             }
             else
             {
-                p.enableEmission = val;
+                emission.enabled = val;
             }
         }
 
         foreach (ParticleSystem p in waterFlowRight.GetComponentsInChildren<ParticleSystem>())
         {
             //Debug.Log("Psystem found");
-            if (val == true & p.enableEmission == false)
+            ParticleSystem.EmissionModule emission = p.emission;
+            if (val == true & emission.enabled == false)
             {
-                p.enableEmission = true;
+                emission.enabled = true;
                 p.Play();
             }
             else
             {
-                p.enableEmission = val;
+                emission.enabled = val;
             }
         }
     }
