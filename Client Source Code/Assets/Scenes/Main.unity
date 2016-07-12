@@ -9124,6 +9124,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1045759599}
+  - 114: {fileID: 1045759600}
   m_Layer: 5
   m_Name: Animal Mover
   m_TagString: Untagged
@@ -9146,9 +9147,24 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -440}
   m_SizeDelta: {x: 0, y: 440}
   m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &1045759600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045759598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682a588d19be4534bb12653571744d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closedPosY: -440
+  openPosY: 0
+  moveSpeed: 440
+  panel: {fileID: 2130050802}
 --- !u!1 &1060158368
 GameObject:
   m_ObjectHideFlags: 0
@@ -11820,6 +11836,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1457605675}
+  - 114: {fileID: 1457605676}
   m_Layer: 5
   m_Name: Accessory Mover
   m_TagString: Untagged
@@ -11842,9 +11859,24 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -440}
   m_SizeDelta: {x: 0, y: 440}
   m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &1457605676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457605674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682a588d19be4534bb12653571744d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closedPosY: -440
+  openPosY: 0
+  moveSpeed: 440
+  panel: {fileID: 961650706}
 --- !u!1 &1486043214 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 184274, guid: a1945caba6b9ef64abbc761c1b4ca991, type: 2}
