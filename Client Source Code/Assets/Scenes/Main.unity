@@ -11373,11 +11373,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22421330, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
       propertyPath: m_Pivot.x
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 22421330, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
       propertyPath: m_Pivot.y
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
