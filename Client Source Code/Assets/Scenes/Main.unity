@@ -8867,6 +8867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreNextTap: 0
+  panelMover: {fileID: 1457605676}
 --- !u!1 &972420775
 GameObject:
   m_ObjectHideFlags: 0
@@ -17238,6 +17239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreNextTap: 0
+  panelMover: {fileID: 1045759600}
 --- !u!114 &2130050805
 MonoBehaviour:
   m_ObjectHideFlags: 0
