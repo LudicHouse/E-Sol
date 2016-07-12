@@ -10687,6 +10687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   accessoryPanel: {fileID: 961650706}
   animalPanel: {fileID: 2130050802}
+  animalPanelMover: {fileID: 1045759600}
   optionsGroup: {fileID: 193852216}
   creditsPanel: {fileID: 1399517080}
   secondsPerAutosave: 30

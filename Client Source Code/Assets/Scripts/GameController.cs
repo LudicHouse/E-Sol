@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour {
     public System.Random rand;
     public GameObject accessoryPanel;
     public GameObject animalPanel;
+    public PanelMover animalPanelMover;
     public GameObject optionsGroup;
     public GameObject creditsPanel;
     public float secondsPerAutosave;
@@ -654,7 +655,7 @@ public class GameController : MonoBehaviour {
 
         branchToEdit = branch;
         animalPanel.GetComponent<CloseIfTouchElsewhere>().ignoreNextTap = true;
-        animalPanel.SetActive(true);
+        animalPanelMover.openPanel();
 
         UnityEngine.Object.FindObjectOfType<TutorialManager>().setAnimDone();
     }
