@@ -4468,6 +4468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 961650706}
+  panelMover: {fileID: 1457605676}
   accessoryRenderer: {fileID: 1425988181}
 --- !u!58 &491828324
 CircleCollider2D:
