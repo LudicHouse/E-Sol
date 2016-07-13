@@ -9165,7 +9165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closedPosY: -440
   openPosY: 0
-  moveSpeed: 440
+  moveSpeed: 880
   panel: {fileID: 2130050802}
 --- !u!1 &1060158368
 GameObject:
@@ -11878,7 +11878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closedPosY: -440
   openPosY: 0
-  moveSpeed: 440
+  moveSpeed: 880
   panel: {fileID: 961650706}
 --- !u!1 &1486043214 stripped
 GameObject:
