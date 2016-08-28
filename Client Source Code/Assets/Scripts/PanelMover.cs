@@ -7,16 +7,20 @@ public class PanelMover : MonoBehaviour {
     public float moveSpeed;
     public GameObject panel;
 
+    private RectTransform rt;
+
     private bool isOpen = false;
+
 
 	// Use this for initialization
 	void Start () {
+        rt = GetComponent<RectTransform>();
         closePanel();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        Vector2 targetPos = transform.position;
+        Vector2 targetPos = rt.anchoredPosition;
         targetPos.y = closedPosY;
 
         if (isOpen == true)
@@ -24,7 +28,7 @@ public class PanelMover : MonoBehaviour {
             targetPos.y = openPosY;
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+        rt.anchoredPosition = Vector2.MoveTowards(rt.anchoredPosition, targetPos, moveSpeed * Time.deltaTime);
 
         if (isOpen == true)
         {
@@ -32,7 +36,7 @@ public class PanelMover : MonoBehaviour {
         }
         else
         {
-            if (transform.position.y == closedPosY)
+            if (rt.anchoredPosition.y == closedPosY)
             {
                 panel.SetActive(false);
             }
