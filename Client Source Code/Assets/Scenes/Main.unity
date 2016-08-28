@@ -11379,6 +11379,27 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 11496966, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24100000, guid: 1dfe7c6010bb4d340860db2975b7caff,
+        type: 2}
+    - target: {fileID: 11465014, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1399517087}
+    - target: {fileID: 11465014, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toggleEffects
+      objectReference: {fileID: 0}
+    - target: {fileID: 11466568, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1399517087}
+    - target: {fileID: 11466568, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toggleMusic
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
   m_IsPrefabParent: 0
@@ -11412,6 +11433,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1399517079}
   m_Script: {fileID: 11500000, guid: 163db7b2aa52984478115f392a91965a, type: 3}
+--- !u!114 &1399517087 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11496966, guid: ef2c65a57c8ee0248af6ff5265519857,
+    type: 2}
+  m_PrefabInternal: {fileID: 1399517079}
+  m_Script: {fileID: 11500000, guid: 059204d43d0e15643a1888d53d6af525, type: 3}
 --- !u!1 &1419436618
 GameObject:
   m_ObjectHideFlags: 0

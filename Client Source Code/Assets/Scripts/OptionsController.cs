@@ -2,8 +2,10 @@
 using System.Collections;
 using System.IO;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class OptionsController : MonoBehaviour {
+    public AudioMixer mixer;
 
 	// Use this for initialization
 	void Start () {
@@ -74,5 +76,37 @@ public class OptionsController : MonoBehaviour {
         }
 
         return false;
+    }
+
+    public void toggleMusic()
+    {
+        float musicVal = 0;
+        mixer.GetFloat("musicVolume", out musicVal);
+
+        if (musicVal == 0)
+        {
+            mixer.SetFloat("musicVolume", -80);
+        }
+        else
+        {
+            mixer.SetFloat("musicVolume", 0);
+        }
+    }
+
+    public void toggleEffects()
+    {
+        float effectsVal = 0;
+        mixer.GetFloat("effectsVolume", out effectsVal);
+
+        if (effectsVal == 0)
+        {
+            mixer.SetFloat("effectsVolume", -80);
+            mixer.SetFloat("animalsVolume", -80);
+        }
+        else
+        {
+            mixer.SetFloat("effectsVolume", 0);
+            mixer.SetFloat("animalsVolume", 0);
+        }
     }
 }
