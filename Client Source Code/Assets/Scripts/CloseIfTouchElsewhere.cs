@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class CloseIfTouchElsewhere : MonoBehaviour {
     public bool ignoreNextTap = false;
+    public PanelMover panelMover;
 
     private RectTransform rect;
     private TouchManager tMan;
@@ -66,7 +67,7 @@ public class CloseIfTouchElsewhere : MonoBehaviour {
 
             if (rect.rect.Contains(canvasPos) == false)
             {
-                gameObject.SetActive(false);
+                panelMover.closePanel();
             }
         }
 
@@ -88,7 +89,7 @@ public class CloseIfTouchElsewhere : MonoBehaviour {
 
             if (rect.rect.Contains(canvasPos) == false)
             {
-                gameObject.SetActive(false);
+                panelMover.closePanel();
             }
         }
 

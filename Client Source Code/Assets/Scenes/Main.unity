@@ -4468,6 +4468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 961650706}
+  panelMover: {fileID: 1457605676}
   accessoryRenderer: {fileID: 1425988181}
 --- !u!58 &491828324
 CircleCollider2D:
@@ -8814,12 +8815,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 183834252}
-  m_Father: {fileID: 1764233893}
-  m_RootOrder: 6
+  m_Father: {fileID: 1457605675}
+  m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 440}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &961650708
 MonoBehaviour:
@@ -8866,6 +8867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreNextTap: 0
+  panelMover: {fileID: 1457605676}
 --- !u!1 &972420775
 GameObject:
   m_ObjectHideFlags: 0
@@ -9116,6 +9118,55 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!1 &1045759598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1045759599}
+  - 114: {fileID: 1045759600}
+  m_Layer: 5
+  m_Name: Animal Mover
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1045759599
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045759598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2130050803}
+  m_Father: {fileID: 1764233893}
+  m_RootOrder: 7
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: -440}
+  m_SizeDelta: {x: 0, y: 440}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &1045759600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045759598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682a588d19be4534bb12653571744d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closedPosY: -440
+  openPosY: 0
+  moveSpeed: 880
+  panel: {fileID: 2130050802}
 --- !u!1 &1060158368
 GameObject:
   m_ObjectHideFlags: 0
@@ -10637,6 +10688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   accessoryPanel: {fileID: 961650706}
   animalPanel: {fileID: 2130050802}
+  animalPanelMover: {fileID: 1045759600}
   optionsGroup: {fileID: 193852216}
   creditsPanel: {fileID: 1399517080}
   secondsPerAutosave: 30
@@ -11337,7 +11389,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22421330, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 22421330, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -11373,11 +11425,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22421330, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
       propertyPath: m_Pivot.x
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 22421330, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
       propertyPath: m_Pivot.y
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef2c65a57c8ee0248af6ff5265519857, type: 2}
@@ -11779,6 +11831,55 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1454268420}
+--- !u!1 &1457605674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1457605675}
+  - 114: {fileID: 1457605676}
+  m_Layer: 5
+  m_Name: Accessory Mover
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1457605675
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457605674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 961650707}
+  m_Father: {fileID: 1764233893}
+  m_RootOrder: 6
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: -440}
+  m_SizeDelta: {x: 0, y: 440}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &1457605676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457605674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682a588d19be4534bb12653571744d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closedPosY: -440
+  openPosY: 0
+  moveSpeed: 880
+  panel: {fileID: 961650706}
 --- !u!1 &1486043214 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 184274, guid: a1945caba6b9ef64abbc761c1b4ca991, type: 2}
@@ -13516,8 +13617,8 @@ RectTransform:
   - {fileID: 864235601}
   - {fileID: 1649576916}
   - {fileID: 1902157113}
-  - {fileID: 961650707}
-  - {fileID: 2130050803}
+  - {fileID: 1457605675}
+  - {fileID: 1045759599}
   - {fileID: 1886531359}
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -17119,12 +17220,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1947361053}
-  m_Father: {fileID: 1764233893}
-  m_RootOrder: 7
+  m_Father: {fileID: 1045759599}
+  m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 440}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &2130050804
 MonoBehaviour:
@@ -17138,6 +17239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreNextTap: 0
+  panelMover: {fileID: 1045759600}
 --- !u!114 &2130050805
 MonoBehaviour:
   m_ObjectHideFlags: 0

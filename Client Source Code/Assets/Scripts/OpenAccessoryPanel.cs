@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class OpenAccessoryPanel : MonoBehaviour {
     public GameObject panel;
+    public PanelMover panelMover;
     public SpriteRenderer accessoryRenderer;
 
     private Collider2D col;
@@ -81,7 +82,7 @@ public class OpenAccessoryPanel : MonoBehaviour {
             }
 
             panel.GetComponent<CloseIfTouchElsewhere>().ignoreNextTap = true;
-            panel.SetActive(true);
+            panelMover.openPanel();
 
             Object.FindObjectOfType<TutorialManager>().setAccDone();
         }
